@@ -1,3 +1,3 @@
 document.querySelector(".play").onclick = function(){
-    location.href = "index.html"
+    location.href = "resume.html"
 }
