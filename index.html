@@ -1,227 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Resume</title>
     <link rel="icon" type="image/x-icon" href="spotify.svg">
-    <link rel="stylesheet" href="./style2.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="certifVA">
-                <img class="certif" src="img/certif.svg" alt="certif logo">
-                <div class="VA">Verified Artist</div>
-            </div>
-            <div class="name">Moreno Axel</div>
-            <div class="listeners">942 monthly listeners</div>
-        </div>
+        <a href="mailto:axelmoreno0942@gmail.com">E-mail</a>
+        <a href="https://github.com/axelmoreno0942">GitHub</a>
+        <a href="https://www.linkedin.com/in/axel-moreno-78b947380/">LinkedIn</a>
     </header>
     <main>
-        <nav>
-            <div class="links"><a href="https://github.com/axelmoreno0942" class="green">GITHUB</a></div>
-            <div class="links"><a href="https://www.linkedin.com/in/axel-moreno-78b947380/" class="grey">LINKEDIN</a></div>
-            <div class="links"><a href="mailto:axelmoreno0942@gmail.com" class="grey">E-MAIL</a></div>
-            <div class="links"><a href="" class="grey">PHONE</a></div>
-        </nav>
-        <div class="container">
-            <div class="col1">
-                <div class="experience">
-                    <div class="heading">Experience</div>
-                    <hr class="max">
-                    <div class="contentROW">
-                        <img src="img/cyclesdelort.svg" alt="cycles delort logo" class="img">
-                        <div class="text">
-                            <div class="title">Mécanicien / Agent de location cycles</div>
-                            <div class="aux">Cycles Delort Andernos</div>
-                            <div class="infos">Juil. 2025 - Août 2025</div>
-                        </div>    
-                    </div>
-                </div>
-                <div class="outils">
-                    <div class="heading">Outils</div>
-                    <hr class="max">
-                    <div class="contentCOL">
-                        <div class="tab1">
-                            <div class="num">#</div>
-                            <div class="titre">Titre</div>
-                            <div class="skill">Maîtrisé</div>
-                        </div>
-                        <hr class="min">
-                        <div class="elements">
-                            <div class="tab2">
-                                <div class="num">1</div>
-                                <div class="titre">
-                                    <img src="img/vscode.svg" alt="vscode" class="icon">
-                                    <div class="combin">Visual Studio Code</div>
-                                </div>
-                                <img src="img/check.svg" alt="check" class="check">
-                            </div>
-                            <div class="tab2">
-                                <div class="num">2</div>
-                                <div class="titre">
-                                    <img src="img/figma.svg" alt="figma" class="icon">
-                                    <div class="combin">Figma</div>
-                                </div>
-                                <img src="img/check.svg" alt="check" class="check">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="langues">
-                    <div class="heading">Langues</div>
-                    <hr class="max">
-                    <div class="top">
-                        <div class="card">
-                            <img src="img/français.svg" alt="top1">
-                            <div class="Linfos">
-                                <div class="lang">Français</div>
-                                <div class="desc">Langue maternelle</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="img/anglais.svg" alt="top2">
-                            <div class="Linfos">
-                                <div class="lang">Anglais</div>
-                                <div class="desc">TEPITECH 685/990</div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="img/espagnol.svg" alt="top3">
-                            <div class="Linfos">
-                                <div class="lang">Espagnol</div>
-                                <div class="desc">Niveau lycée</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="content">
+            <div class="cover">
+                <div class="play" role="button" aria-label="Play" tabindex="0"></div>
             </div>
-            <div class="col2">
-                <div class="education">
-                    <div class="heading">Éducation</div>
-                    <hr class="max">
-                    <div class="contentROW">
-                        <img src="img/lycée.svg" alt="lycée image" class="img">
-                        <div class="text">
-                            <div class="title">Maths et Numérique Sci. Info.</div>
-                            <div class="aux">Lycée Nord Bassin Simone Veil</div>
-                            <div class="infos">2022 - 2025 | Andernos-les-bains</div>
-                        </div>    
-                    </div>
-                    <div class="contentROW">
-                        <img src="img/epitech.svg" alt="epitech image" class="img">
-                        <div class="text">
-                            <div class="title">Bachelor Full Stack</div>
-                            <div class="aux">EPITECH</div>
-                            <div class="infos">2025 - 2028 | Bordeaux</div>
-                        </div>    
-                    </div>
-                </div>
-                <div class="langages">
-                    <div class="heading">Langages maîtrisés</div>
-                    <hr class="max">
-                    <div class="contentCOL">
-                        <div class="tab1">
-                            <div class="num">#</div>
-                            <div class="titre">Titre</div>
-                            <div class="skill">Niveau de maîtrise</div>
-                        </div>
-                        <hr class="min">
-                        <div class="elements">
-                            <div class="tab2">
-                                <div class="num">1</div>
-                                <div class="titre">
-                                    <img src="img/htmlcss.svg" alt="htmlcss" class="icon">
-                                    <div class="combin">HTML/CSS</div>
-                                </div>
-                                <div class="maitrise">
-                                    <img src="img/nocheck.svg" alt="nocheck" class="check">
-                                    <img src="img/check.svg" alt="check" class="check">
-                                    <img src="img/check.svg" alt="check" class="check">
-                                    <img src="img/check.svg" alt="check" class="check">
-                                    <img src="img/check.svg" alt="check" class="check">
-                                </div>
-                            </div>
-                            <div class="tab2">
-                                <div class="num">2</div>
-                                <div class="titre">
-                                    <img src="img/python.svg" alt="python" class="icon">
-                                    <div class="combin">Python</div>
-                                </div>
-                                <div class="maitrise">
-                                    <img src="img/nocheck.svg" alt="nocheck" class="check">
-                                    <img src="img/check.svg" alt="check" class="check">
-                                    <img src="img/check.svg" alt="check" class="check">
-                                    <img src="img/check.svg" alt="check" class="check">
-                                    <img src="img/check.svg" alt="check" class="check">
-                                </div>
-                            </div>
-                            <div class="tab2">
-                                <div class="num">3</div>
-                                <div class="titre">
-                                    <img src="img/sql.svg" alt="sql" class="icon">
-                                    <div class="combin">SQL</div>
-                                </div>
-                                <div class="maitrise">
-                                    <img src="img/nocheck.svg" alt="nocheck" class="check">
-                                    <img src="img/nocheck.svg" alt="nocheck" class="check">
-                                    <img src="img/nocheck.svg" alt="nocheck" class="check">
-                                    <img src="img/check.svg" alt="check" class="check">
-                                    <img src="img/check.svg" alt="check" class="check">
-                                </div>
-                            </div>
-                            <div class="tab2">
-                                <div class="num">4</div>
-                                <div class="titre">
-                                    <img src="img/javascript.svg" alt="javascript" class="icon">
-                                    <div class="combin">Javascript</div>
-                                </div>
-                                <div class="maitrise">
-                                    <img src="img/nocheck.svg" alt="nocheck" class="check">
-                                    <img src="img/nocheck.svg" alt="nocheck" class="check">
-                                    <img src="img/nocheck.svg" alt="nocheck" class="check">
-                                    <img src="img/nocheck.svg" alt="nocheck" class="check">
-                                    <img src="img/check.svg" alt="check" class="check">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="text-wrapper-1">
+                <img class="certif" src="img/certif.svg" alt="Certification icon">
+                <div class="text-wrapper-2">Certified developer</div>
+                <div class="text-wrapper-3">Moreno Axel</div>
+                <p class="p">Étudiant à EPITECH, en Bachelor Full-Stack. J'aimerais travailler sur des projets innovants mêlant front et back-end, apprendre de nouvelles technologies, et créer des expériences utilisateurs engageantes. Mon objectif : développer mes compétences et contribuer à des applications performantes et accessibles.</p>
             </div>
         </div>
     </main>
-    <footer>
-        <div class="container">
-            <div class="contact">Contactez moi</div>
-            <form action="#" method="post">
-                <div class="cols">
-                    <div class="form-groups">
-                        <label for="first-name">First Name</label>
-                        <input type="text" id="first-name" name="first-name" required>
-                    </div>
-                    <div class="form-groups">
-                        <label for="last-name">Last Name</label>
-                        <input type="text" id="last-name" name="last-name" required>
-                    </div>
-                </div>
-                <div class="cols">
-                    <div class="form-groups">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-groups">
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                </div>
-                <button type="submit" class="submit">Envoyer</button>
-            </form>
-        </div>
-    </footer>
 </body>
 </html>
+
